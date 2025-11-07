@@ -21,6 +21,5 @@ public class Poll {
     @ElementCollection // this annotation will create an entity/table by name "poll_options" with "poll_id" and "options" columns.
     private List<OptionVote> options = new ArrayList<>();
 
-//    @ElementCollection // this annotation will create an entity/table by name "poll_votes" with "poll_id" and "votes" columns.
 //    private List<Long> votes = new ArrayList<>();
 }
