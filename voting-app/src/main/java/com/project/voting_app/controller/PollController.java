@@ -12,6 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/polls")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "http://localhost:4200/")
 public class PollController {
 
     private final PollService pollService;
